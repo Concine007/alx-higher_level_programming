@@ -35,7 +35,7 @@ size_t s = 0, x;
 
 if (*head == NULL || (*head)->next == NULL)
 return (1);
-tmp = *head;
+t = *head;
 while (t)
 {
 s++;
